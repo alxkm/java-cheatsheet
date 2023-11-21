@@ -1,2 +1,3 @@
-# java-cheat-sheet
-Some cheat sheet
+# Java cheatsheet
+
+Some useful java
