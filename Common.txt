@@ -114,7 +114,7 @@ treeMap.firstKey();                                         // returns the first
 SortedMap<K,V> portionOfTreeMap = treeMap.headMap(K toKey); // Returns a view of the portion of this map whose keys are strictly less than toKey.
 NavigableMap<K,V> map = treeMap.headMap(toKey, true);       // Returns a view of the portion of this map whose keys are less than or equal to toKey.
 
-Set<Integer> treeSet = new TreeSet<>();                     // sort in ascending order by default
+TreeSet<Integer> treeSet = new TreeSet<>();                     // sort in ascending order by default
 treeSet.lower(Integer e);	                                // return greatest element that is < e, or null if no such element
 treeSet.floor(Integer e);	                                // return greatest element that is <= e, or null if no such element
 treeSet.ceiling(Integer e);                                 // return smallest element that is >= e, or null if no such element
