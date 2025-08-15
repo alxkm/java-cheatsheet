@@ -10,7 +10,8 @@
                                                              // Very suitable for converting a single element to a list.
 							     // Note that the list-form array returned by Arrays.asList allows modification of certain elements but cannot add or remove elements.
 
-
+[String to Stream<Character>]: Stream<Character> charStream = str.chars().mapToObj(c -> (char)c);
+[Stream<Character> to String]: String str = charStream.collect(StringBuilder::new, StringBuilder::append, StringBuilder::append).toString(); 
 
 /********************** String ***************************/
 String s = “a*b*c”;
